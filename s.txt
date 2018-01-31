@@ -1,0 +1,4 @@
+pio init
+--board pro16MHzatmega328 --board nanoatmega328 --board heltec_wifi_kit_32 --board nodemcuv2 --board esp01_1m
+--board sparkfun_promicro16
+--board nodemcuv2

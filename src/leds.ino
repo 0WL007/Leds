@@ -1,6 +1,6 @@
 //#include <Arduino.h>
 #include <WS2812FX.h>
-
+//123test_atom
 #define LED_COUNT 50 // кол-во светодиодов в гирлянде
 #define LED_PIN 6 // пин для вывода на гирлянду
 #define DEF_SPEED 2500 // задержка в мс, по дефолту 1000
@@ -60,7 +60,6 @@ int i = 0; // счётчик индекса в массиве эффектов
 int l = 0; // индекс прошлого (last) эффекта
 //int m = 13; // кол-во эффектов, см. массив modes
 int m = sizeof(modes)/sizeof(int); // кол-во эффектов, см. массив modes
-
 
 void setup() {
   strip.init();

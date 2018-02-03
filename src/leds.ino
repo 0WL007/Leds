@@ -1,6 +1,5 @@
 //#include <Arduino.h>
 #include <WS2812FX.h>
-//123test_atom
 #define LED_COUNT 50 // кол-во светодиодов в гирлянде
 #define LED_PIN 6 // пин для вывода на гирлянду
 #define DEF_SPEED 2500 // задержка в мс, по дефолту 1000
